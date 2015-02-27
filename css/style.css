@@ -1,0 +1,41 @@
+header{
+	background-color: #fff;
+	height: 10vh;
+	width: 100%;
+}
+
+header h1{
+	color: #00b2ca;
+	text-align: center;
+}
+
+.container-landing-page{
+	background: #f2f2f2;
+	width: 100%;
+	height: 70vh;
+}
+
+.container-landing-page p {
+  margin-left: 5%;
+  width: 30%;
+  margin-top: 25vh;
+  font-size: 25px;
+  color: #fff;
+  display: inline-block;
+}
+
+.footer-landing-page{
+	height: 20vh;
+	background-color: #00b2ca;
+}
+
+.iphone-img{
+	display: inline-block;
+	  float: right;
+	  margin-top: 50px;
+	  height: 100%;
+	  margin-right: 10%;
+	  background-size: 95%;
+	  width: 40%;
+	  background-image:  url("iphone.png");
+}
