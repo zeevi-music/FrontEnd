@@ -58,6 +58,7 @@ header h3{
    height:15vh;
    width:100%;
    background:#00b2ca;
+  padding: 15px;
 }
 
 
@@ -73,14 +74,14 @@ header h3{
 .nexus-img{
 	display: inline-block;
 	float: right;
-	width: 270px;
+	width: 250px;
 	margin-right: 4%;
-
+	height: auto;
 	margin-top: 8%;
 }
 
 .nexus-img img{
-	margin-left: -35%;
+	margin-left: -45%;
 }
 
 .bg{
