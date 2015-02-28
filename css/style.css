@@ -33,7 +33,7 @@ header h2{
   font-family: 'Slabo 27px', serif;
   margin-left: 5%;
   width: 30%;
-  margin-top: 50vh;
+  margin-top: 40vh;
   font-size: 25px;
   color: white;
   display: inline-block;
@@ -57,14 +57,25 @@ header h2{
 
 
 .iphone-img{
-  display: inline-block;
-  float: right;
-  margin-top: 50px;
-  height: 100%;
-  margin-right: 10%;
-  background-size: 95%;
-  width: 40%;
-  background-image:  url("iphone.png");
+	display: inline-block;
+	float: right;
+	width: 290px;
+	height: auto;
+	margin-top: 10%;
+	margin-left: 4%;
+}
+
+.nexus-img{
+	display: inline-block;
+	float: right;
+	width: 270px;
+	margin-right: 4%;
+	height: auto;
+	margin-top: 8%;
+}
+
+.nexus-img img{
+	margin-left: -35%;
 }
 
 .bg{
