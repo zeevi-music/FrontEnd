@@ -32,7 +32,6 @@ header h3{
 }
   
 .bound{
-  background-color: white;
   padding: 20px;
   border-radius: 10px;
 }
@@ -49,4 +48,8 @@ header h3{
    width:100%;
    background:#00b2ca;
   padding: 15px;
+}
+
+.right{
+  text-align: right;
 }
