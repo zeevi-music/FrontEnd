@@ -9,6 +9,14 @@ header{
   z-index: 1;
 }
 
+h1{
+  color: #00b1ca;
+  text-align: center;
+  height: 25px;
+  padding-top: -5;
+  font-family: 'Slabo 27px', serif;
+}
+
 header h1{
   color: red;
   text-align: center;
