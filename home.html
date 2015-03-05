@@ -1,44 +1,37 @@
-<html>
-  
+<!doctype html>
+<html lang=''>
   <head>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/bar.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bar-style.css">
+    <link rel="stylesheet" href="css/bar.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/bar-script.js"></script>
+    <title>zeevi Home</title>
   </head>
-  
   <body>
-     <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <a href="index.html">
-            <img src="img/logo/zeevi_3.png" class="logo">
-          </a>
-        </li>
-
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-
-      <section class="top-bar-section">
-        
-        <!-- Right Nav Section -->
-        <ul class="right">
-          <li class="has-dropdown">
-            <a href="#">Opciones</a>
-            <ul class="dropdown">
-              <li><a href="#">Cambiar contraseña</a></li>
-              <li><a href="index.html">Cerrar Sesión</a></li>
-            </ul>
+    
+    <div class="back">
+      <!--dentro de este div se cargará el contenido-->
+    </div>
+    
+    <div id='cssmenu' class="top-bar">
+      <ul>
+          <li>
+            <a href='#'><img src="img/logo/zeevi_3.png" class="logo"></a>
           </li>
-        </ul>
-
-        <!-- Left Nav Section -->
-        <ul class="left">
-          <li><a href="#">   </a></li>
-          <li><a href="#" class="smtg">Inicio</a></li>
-          <li><a href="#">Perfil</a></li>
-          <li><a href="#">Solicitudes</a></li>
-        </ul>
-      </section>
-    </nav>
+          <li><a href='#'>Inicio</a></li>
+          <li><a href='#'>Perfil</a></li>
+          <li><a href='#'>Solicitudes</a></li>
+          <li class='has-sub'><a href='#'>Cuenta</a>
+            <ul>
+               <li><a href='index.html'>Cerrar Sesión</a></li>
+               <li><a href='#'>Otras opciones</a></li>
+            </ul>
+         </li>
+      </ul>
+    </div>
   </body>
-</html>
+<html>
