@@ -12,8 +12,8 @@ header{
 }
 
 header img{
-  width: 130px;
-  margin-left: 100%;
+  width: 100px;
+  margin-top: 5px;
 }
 
 h1{
@@ -40,7 +40,14 @@ header h3{
   color: #00b2ca;
   text-align: right;
 }
-  
+
+.footer span{
+  color: #fff;
+  height: 35px;
+  width: 100%;
+  display: inline-block;
+}
+
 .container-landing-page{
   position: absolute;
   width: 100%;
@@ -83,23 +90,28 @@ header h3{
 .iphone-img{
 	display: inline-block;
 	float: right;
-	width: 35%;
+	width: 48%;
 	height: auto;
-	margin-top: 10%;
-	margin-left: 4%;
+	margin-top: 0%;
+	margin-left: 0%;
 }
 
 .nexus-img{
 	display: inline-block;
 	float: right;
-	width: 35%;
-	margin-right: 4%;
+	width: 48%;
+	margin-right: 0%;
 	height: auto;
-	margin-top: 8%;
+	margin-top: 0%;
 }
 
 .nexus-img img{
-	margin-left: -45%;
+	margin-left: -15%;
+}
+
+.iphone-img img{
+  margin-left: 15%;
+  margin-top: 20%;
 }
 
 .bg{
