@@ -5,17 +5,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   </head>
   <body>
+    
+    
     <div class="top-small">
       <!--Aquí irán los datos.-->
       <img src="img/header/music.jpg" class="head-image"/>
       
-      <div id="profile-img crop" class="prof-img-small">
+      <div id="profile-img-small" class="prof-img-small">
         <img src="img/profile/mastodon.jpg"/>
       </div>
       <div id="data-container" class="data">
-        <p id="section-name">Solicitudes</p>
+        <p id="section_name">News</p>
       </div>
     </div>
+    
     <div class="section-container">
       <!--Aquí irá el contenido de las secciones.-->
       <div class="query-container">
@@ -47,13 +50,5 @@
       </div>
     </div>
     
-    <script>
-      $(window).scroll(function(){
-        if($(window).scrollTop() >= $('#data-container').outerHeight()) {
-        // put content here for if the page has scrolled 200 pixels
-          alert("Scroleado");
-        }
-        });
-    </script>
   </body>
 </html>

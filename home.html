@@ -7,16 +7,14 @@
     <link rel="stylesheet" href="css/bar-style.css">
     <link rel="stylesheet" href="css/bar.css">
     <link rel="stylesheet" href="css/sections.css">
-    
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="js/bar-script.js"></script>
     <script src="js/div_manager.js"></script>
-    
     <title>zeevi Home</title>
   </head>
-  <body>
+  <body onload="message()">
     
-    <div id="container" class="back">
+    <div id="container" class="back" onload="message();">
       <!--dentro de este div se cargará el contenido-->
     </div>
     
@@ -37,13 +35,6 @@
       </ul>
     </div>
   </body>
-  <script type="text/javascript"> 
+  
 
-        jQuery(document).ready(function() { 
-
-            $('a.loader').click(function() {
-                $('#back').load('profile.html');
-            });
-        });
-    </script>
 <html>
